@@ -598,6 +598,10 @@ video {
   height: 207px;
 }
 
+.h-\[56px\] {
+  height: 56px;
+}
+
 .w-\[\] {
   width: ;
 }
@@ -620,6 +624,10 @@ video {
 
 .w-\[347px\] {
   width: 347px;
+}
+
+.w-\[267px\] {
+  width: 267px;
 }
 
 .max-w-\[1200px\] {
@@ -967,6 +975,10 @@ video {
     gap: 1.5rem;
   }
 
+  .mob\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .mob\:border {
     border-width: 1px;
   }
@@ -995,11 +1007,23 @@ video {
     text-align: center;
   }
 
+  .mob\:text-start {
+    text-align: start;
+  }
+
   .mob\:text-\[30px\] {
     font-size: 30px;
   }
 
   .mob\:text-\[14px\] {
     font-size: 14px;
+  }
+
+  .mob\:text-\[\] {
+    color: ;
+  }
+
+  .mob\:text-\[30\] {
+    color: 30;
   }
 }
