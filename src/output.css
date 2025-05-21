@@ -654,6 +654,10 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -861,6 +865,10 @@ video {
   padding-bottom: 5rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -893,6 +901,10 @@ video {
   font-size: 24px;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .font-\[700\] {
   font-weight: 700;
 }
@@ -914,6 +926,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#FFFAF1\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 250 241 / var(--tw-text-opacity, 1));
 }
 
 .shadow-sm {
@@ -951,8 +968,16 @@ video {
     flex-direction: column-reverse;
   }
 
+  .mob\:items-start {
+    align-items: flex-start;
+  }
+
   .mob\:items-center {
     align-items: center;
+  }
+
+  .mob\:justify-start {
+    justify-content: flex-start;
   }
 
   .mob\:justify-center {
@@ -977,6 +1002,14 @@ video {
 
   .mob\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .mob\:gap-1 {
+    gap: 0.25rem;
+  }
+
+  .mob\:gap-14 {
+    gap: 3.5rem;
   }
 
   .mob\:border {
@@ -1019,11 +1052,23 @@ video {
     font-size: 14px;
   }
 
+  .mob\:text-\[34px\] {
+    font-size: 34px;
+  }
+
+  .mob\:text-\[16px\] {
+    font-size: 16px;
+  }
+
   .mob\:text-\[\] {
     color: ;
   }
 
   .mob\:text-\[30\] {
     color: 30;
+  }
+
+  .mob\:text-\[1\] {
+    color: 1;
   }
 }
